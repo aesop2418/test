@@ -1,6 +1,6 @@
 # GitHub **프로젝트 미션**
 
-## Git**? GitHub?**
+## Git? GitHub?
 
 ---
 
