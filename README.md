@@ -119,3 +119,27 @@
         `$ git merge B(브랜치명)`
 
         A 브랜치로 B 브랜치를 병합할 때 (A ← B)
+        
+    3. **브랜치 삭제**
+
+        `$ git branch -d B(브랜치명)`
+
+### **미션3: 풀리퀘 보내기**
+
+- 펼쳐보기
+    - `document` 브랜치 체크아웃
+    - branch.md에 pull request에 대한 내용 추가 및 커밋 생성
+    - 깃헙에서 master 저장소에 풀리퀘를 보낸다.
+    - 머지하고 확인한다.
+
+    1. **Fork 뜨기**
+
+        타겟 프로젝트의 저장소를 자신의 저장소로 Fork 한다.
+
+        ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cec8b2a9-577e-482d-aeec-25dc3eb5b44d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cec8b2a9-577e-482d-aeec-25dc3eb5b44d/Untitled.png)
+
+        → 오른쪽 위에 있는 Fork버튼 눌러서 내 저장소로 복제한다.
+
+    2. Pull request 보내기
+        - 다른 사람이 작업중인 repo에 제안(?)하기.
+        - 오픈소스 기여할 때 사용.
