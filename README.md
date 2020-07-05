@@ -2,14 +2,10 @@
 
 ## Git? GitHub?
 
----
-
 - Git은 소스 코드 버전 관리 및 협업을 위해 가장 많이 사용되는 VCS (Version Control System)이다.
 - GitHub은 Git을 호스팅 해 주는 사이트로, '소셜 코딩'을 표방하며 가장 유명하고 널리 사용된다.
 
 ## **실습 수행**
-
----
 
 ### **미션1: 저장소 생성 및 커밋하기**
 
@@ -27,8 +23,6 @@
     - `hello.md` 에 "좋은 커밋이란 무엇인가?" 에 대한 내용을 간단히 정리해서 추가
     - add, commit, push
     - 원격 저장소에서 확인
-
-    ---
 
     1. **GitHub repo 생성.**
 
@@ -86,3 +80,42 @@
         5. 제목 행에 명령문을 사용한다
         6. 본문을 72자 단위로 개행한다
         7. 어떻게 보다는 무엇과 왜를 설명한다
+    
+    7. **팀원 추가하기.**
+
+    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/240861f8-db70-442c-8d76-76b8b15af301/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/240861f8-db70-442c-8d76-76b8b15af301/Untitled.png)
+
+    → Manage access 탭을 이용하여 팀원을 추가한다.
+
+### **미션2: 브랜치 생성 및 커밋하기**
+
+- 펼쳐보기
+    - `document` 브랜치 생성 및 체크아웃
+    - `branch.md` 를 새로 만들고 branch, checkout, merge 에 대한 설명을 작성한다.
+    - add, commit, push
+    - master에 document 브랜치를 merge한다.
+    - master를 push하고 깃헙에서 확인한다.
+
+    1. **브랜치 생성하기**
+
+        `$ git branch 브랜치이름`
+
+        브랜치 생성하기
+
+        `$ git checkout 브랜치이름`
+
+        브랜치 선택하기
+
+        `$ git checkout -b 브랜치이름`
+
+        브랜치 생성하고 선택하기
+
+    2. **Merge 하기**
+
+        `$ git checkout A(브랜치명)`
+
+        A 브랜치로 변경
+
+        `$ git merge B(브랜치명)`
+
+        A 브랜치로 B 브랜치를 병합할 때 (A ← B)
